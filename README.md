@@ -11,7 +11,7 @@ Matlab implementation of TNNLS2019 paper: "Accurate Tensor Completion via Adapti
 cd ./Adaptive-Low-Rank-Tensor-Representation/
 tar -zxvf tensor_toolbox_2.6.tar.gz
 ```
-2. Run the matlab file './script/CompileFile.m' to mex compile the CPP file in the sampling method
+2. Run the matlab file './script/CompileFile.m' to mex compile the CPP file in the sampling method. We have provided the library files compiled on 64 bit Ubuntu OS, which can be found in the folder './script/'.
 ### Usage
 Run the matlab file 'main_Inpaiting.m' to see the demo on image inpainting.
   
